@@ -1,0 +1,31 @@
+@import "../../styles/colors";
+
+.emotes-container {
+  width: 340px;
+  max-height: 65vh;
+  overflow: auto;
+  border: 2px solid $grey-8;
+  align-self: center;
+
+  .emote-hint {
+    margin: 30px;
+    text-align: center;
+    line-height: 1.4rem;
+  }
+
+  .emotes-group {
+    padding: 15px;
+    border-bottom: 1px solid $grey-8;
+  }
+
+  .emote-button {
+    padding: 5px !important;
+    border-radius: 10%;
+  }
+
+  .emotes-loading {
+    margin: 135px;
+    width: 70px !important;
+    height: 70px !important;
+  }
+}
